@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:ynov-swift}/MyExecutable",
+            "name": "Debug MyExecutable (MyExecutable)",
+            "target": "MyExecutable",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug MyExecutable (MyExecutable)"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:ynov-swift}/MyExecutable",
+            "name": "Release MyExecutable (MyExecutable)",
+            "target": "MyExecutable",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release MyExecutable (MyExecutable)"
+        }
+    ]
+}
