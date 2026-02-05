@@ -94,6 +94,15 @@ func tp1_movieManager() {
             addMovie(title: title, year: year, rating: rating, genre: genre, to: &movies)
             
         case 6:
+            print("\n-- Export CSV --")
+            let csv = exportToCSV(movies)
+            print(csv)
+            print("Nom du fichier (ou vide pour annuler): ", terminator: "")
+            if let filename = readLine(), !filename.isEmpty {
+                saveCSV(movies, to: filename)
+            }
+            
+        case 7:
             print("Au revoir!")
             running = false
             

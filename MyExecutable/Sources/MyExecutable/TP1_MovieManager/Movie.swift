@@ -15,7 +15,8 @@ func displayMovieMenu() {
     3. Filtrer par genre
     4. Afficher les statistiques
     5. Ajouter un film
-    6. Quitter
+    6. Exporter en CSV
+    7. Quitter
     
     """)
 }
